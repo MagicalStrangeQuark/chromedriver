@@ -1,0 +1,5 @@
+# Nginx production.
+FROM nginx:1.23
+
+COPY .docker/nginx/default.prod.conf /etc/nginx/conf.d/default.conf
+COPY --chown=www-data . /var/www/html
