@@ -1,3 +1,3 @@
 <?php
 
-die("Hello, world!");
+echo "Hello, world!";
